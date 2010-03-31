@@ -5,5 +5,5 @@ puts "  match 'ckeditors/browser'=>'ckeditors#browser'"
 
 dir_base = File.dirname(__FILE__)
 
-FileUtils.cp_r("#{dir_base}/javascripts/ckeditor","public/javascripts/")
-FileUtils.cp_r("#{dir_base}/app/controllers/ckeditors_controller.rb","app/controllers/")
+FileUtils.cp_r("#{dir_base}/src/javascripts/ckeditor","public/javascripts/")
+FileUtils.cp_r("#{dir_base}/src/controllers/ckeditors_controller.rb","app/controllers/")

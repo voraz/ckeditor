@@ -1,0 +1,4 @@
+= Ckeditor
+
+== Installation
+    rails plugin install git://github.com/voraz/ckeditor.git
